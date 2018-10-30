@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to the Free Test Generator Website!
 
-You can use the [editor on GitHub](https://github.com/2019skazmi/syslab/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Enter a concept, the type of questions, and the number of questions desired to create a test.
 
 ### Markdown
 
