@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <body style="padding:10px;background-color: #ffffcc;background-image:url('http://localhost/myflaskapp/templates/testimage.jpg')">
+    <center><h1>Welcome to Test Generator!</h1></center>
+    <center><p>This website will generate a test on science concepts for you.</p></center>
+    <h3>Enter a concept:</h3>
+    <p>(Examples: Photosynthesis, Metamorphasis, Cells)</p>
+    <form method="POST" action="/generated_test">
+      <div class="form-group">
+        <input type="text" name="subject">
+      </div>
+      <input class="btn btn-primary" type="submit" value="submit">
+    </form>
+  </body>
+</html>
